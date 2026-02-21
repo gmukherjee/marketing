@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beyond Black-Box: Structuring Landing Page Recommender Systems Using Predicted Intents — ASA Marketing Section</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+<header class="site-header">
+  <a class="nav-title" href="../index.html">ASA Marketing Section</a>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="../seminars.html" class="active">Seminars</a>
+    <a href="../jsm.html">JSM Sessions</a>
+    <a href="../awards.html">Student Paper Awards</a>
+  </nav>
+</header>
+<main class="page-content">
+
+  <a class="back-link" href="../seminars.html">← Back to all seminars</a>
+
+  <div class="talk-detail-meta">
+    November 11, 2025 &nbsp;·&nbsp; 6:00–7:00 PM Eastern
+  </div>
+
+  <h1 class="talk-detail-title">Beyond Black-Box: Structuring Landing Page Recommender Systems Using Predicted Intents</h1>
+
+  <div class="talk-detail-speaker">
+    <strong>Yuyan Wang</strong>
+    <br>Stanford Graduate School of Business
+    
+  </div>
+
+  <a class="action-link zoom-link" href="https://usc.zoom.us/j/95561331935" target="_blank" rel="noopener">Join via Zoom ↗</a>
+
+
+  <hr style="margin: 2rem 0; border: none; border-top: 1px solid #eee;">
+
+  <div class="abstract-heading">Abstract</div>
+  <div class="abstract-text">
+    <p>Modern recommender systems rely on black-box machine learning models to predict consumer choices. However, because these models do not explicitly represent the underlying data-generating process (DGP), they often struggle to generalize beyond observed data. A growing body of work advocates for incorporating consumer intent into personalization systems to improve generalization.</p>
+<p>Yet in the context of <strong>landing page recommendations</strong>—the most common and challenging personalization setting—a <strong>list</strong> of recommendations must be generated immediately when a consumer enters the platform, <em>before</em> any explicit intent signal is available.</p>
+<p>We propose the <em>Intent-Structured Landing-Page Recommender System (ISRec)</em>, a principled framework that incorporates intent-based structure into multi-stage landing page recommender systems <em>without</em> requiring explicit consumer input and while satisfying industrial latency constraints. ISRec defines intent as a consumer's dynamic <em>receptiveness</em> to subsets of content, allowing intent labels to be inferred directly from observed behavior.</p>
+<p>It consists of three stages: intent prediction, intent-aware reward modeling, and intent-aware whole-page optimization, serving as the <em>optimal</em> greedy solution to the original NP-hard intent-aware recommendation problem with provable regret-bound guarantees.</p>
+<p>We evaluate ISRec on YouTube, the world's largest video recommendation platform, and find that it significantly improves daily active users (DAU) by 0.05% and overall user enjoyment by 0.09%, among the largest business metric gains observed in recent YouTube experiments, corresponding to an estimated $32.5 million in annual ads revenue.</p>
+<p>Our findings provide empirical evidence that even without knowing the true DGP, enforcing a partial structure aligned with it can help the model generalize. Managerially, ISRec offers a principled and generalizable framework for integrating behavioral and structural insights into real-time industrial personalization systems, paving the way for human-in-the-loop AI design.</p>
+  </div>
+
+</main>
+<footer class="site-footer">
+  American Statistical Association — Marketing Section
+</footer>
+</body>
+</html>
