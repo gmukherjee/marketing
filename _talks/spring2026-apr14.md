@@ -2,7 +2,7 @@
 date: April 14, 2026
 time: 12:00–1:00 PM Eastern
 season: Spring 2026
-zoom: https://gmukherjee.github.io/marketing/talks/spring2026-apr14.html
+zoom: https://iu.zoom.us/j/81598715862
 talks:
   - title: "Trends and Challenges in Television Advertising"
     speaker: Greg Faletto
