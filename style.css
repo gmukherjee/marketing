@@ -92,6 +92,23 @@ a:hover { text-decoration: underline; }
   margin: 2.5rem 0 1.2rem;
 }
 
+/* ── PDF link beside season heading ───────────────────────── */
+.pdf-link {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #8c1919;
+  text-decoration: none;
+  border: 1px solid #8c1919;
+  border-radius: 3px;
+  padding: 0.15rem 0.5rem;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.pdf-link:hover {
+  background: #8c1919;
+  color: #fff;
+}
+
 /* ── Talk card ────────────────────────────────────────────── */
 .talk-card {
   border: 1px solid #e5e5e5;
