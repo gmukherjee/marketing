@@ -50,7 +50,7 @@ SEMINARS_HEADER = """\
   <div class="about-section">
     <p>The <strong>American Statistical Association (ASA) Marketing Section</strong> is excited to present an online research seminar series. This series aims to foster research, discussions, and engagement at the intersection of marketing and statistics, driven by the rapid advancements in both fields. Seminars this semester are held from 12:00\u20131:00 PM Eastern Time, featuring a 45-minute presentation followed by a 15-minute Q&amp;A.</p>
     <p>Follow us on <a href="https://www.linkedin.com/groups/14601729/" target="_blank" rel="noopener">LinkedIn</a> to stay up to date.</p>
-    <p><strong>Subscribe to our calendar:</strong> <a href="https://calendar.google.com/calendar/embed?src=c_219b6a770fca4e387d40582828a9114de0617e71692dc6d15f5be71816f72af1%40group.calendar.google.com&ctz=America%2FNew_York" target="_blank" rel="noopener">Google Calendar</a> &nbsp;·&nbsp; <a href="https://calendar.google.com/calendar/ical/c_219b6a770fca4e387d40582828a9114de0617e71692dc6d15f5be71816f72af1%40group.calendar.google.com/public/basic.ics">iCal</a></p>
+    <p><strong>Subscribe to our calendar:</strong> <a href="https://calendar.google.com/calendar/u/0?cid=Y18yMTliNmE3NzBmY2E0ZTM4N2Q0MDU4MjgyOGE5MTE0ZGUwNjE3ZTcxNjkyZGM2ZDE1ZjViZTcxODE2ZjcyYWYxQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20" target="_blank" rel="noopener">Google Calendar</a></p>
     <p><strong>Current Organizers:</strong> Sam Levy (UVA Darden), Keyan Li (Notre Dame Mendoza), Max Matthe (IU Kelley), Dinesh Puranam (USF Muma), Yingkang Xie (WashU Olin), and Gourab Mukherjee (USC Marshall)</p>
     <p>For any questions, please feel free to reach out to us at <a href="mailto:mpmatthe@iu.edu">mpmatthe [at] iu [dot] edu</a>.</p>
   </div>
