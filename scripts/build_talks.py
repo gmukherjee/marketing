@@ -48,7 +48,7 @@ SEMINARS_HEADER = """\
   <h1 class="page-title">Online Seminar Series</h1>
 
   <div class="about-section">
-    <p>The <strong>American Statistical Association (ASA) Marketing Section</strong> is excited to present an online research seminar series. This series aims to foster research, discussions, and engagement at the intersection of marketing and statistics, driven by the rapid advancements in both fields. Seminars this semester are on Tuesdays from 3:00\u20134:00 PM Eastern Time, featuring a 45-minute presentation followed by a 15-minute Q&amp;A.</p>
+    <p>The <strong>American Statistical Association (ASA) Marketing Section</strong> is excited to present an online research seminar series. This series aims to foster research, discussions, and engagement at the intersection of marketing and statistics, driven by the rapid advancements in both fields. Seminars this semester are held from 3:00\u20134:00 PM Eastern Time, featuring a 45-minute presentation followed by a 15-minute Q&amp;A.</p>
     <p>Follow us on <a href="https://www.linkedin.com/groups/14601729/" target="_blank" rel="noopener">LinkedIn</a> to stay up to date.</p>
     <p><strong>Subscribe to our calendar:</strong> <a href="https://calendar.google.com/calendar/embed?src=c_219b6a770fca4e387d40582828a9114de0617e71692dc6d15f5be71816f72af1%40group.calendar.google.com&ctz=America%2FNew_York" target="_blank" rel="noopener">Google Calendar</a> &nbsp;·&nbsp; <a href="https://calendar.google.com/calendar/ical/c_219b6a770fca4e387d40582828a9114de0617e71692dc6d15f5be71816f72af1%40group.calendar.google.com/public/basic.ics">iCal</a></p>
     <p><strong>Current Organizers:</strong> Max Matthe (IU Kelley), Gourab Mukherjee (USC Marshall), Sam Levy (UVA Darden), and Dinesh Puranam (USF Muma)</p>
@@ -124,10 +124,12 @@ def render_talk_html(data: dict) -> str:
     talks = data.get("talks", [])
 
     meta_line = f"{date} &nbsp;·&nbsp; {time}" if date else ""
-    zoom_block = (
-        f'  <a class="action-link zoom-link" href="{zoom}" target="_blank" rel="noopener">Join via Zoom ↗</a>'
-        if zoom else ""
-    )
+    if str(zoom).strip().upper() == "TBA":
+        zoom_block = '  <div class="talk-detail-meta" style="margin-top: 1.4rem;">Zoom link: TBA</div>'
+    elif zoom:
+        zoom_block = f'  <a class="action-link zoom-link" href="{zoom}" target="_blank" rel="noopener">Join via Zoom ↗</a>'
+    else:
+        zoom_block = ""
 
     if is_multi:
         page_title = " & ".join(t.get("title", "") for t in talks) + " — ASA Marketing Section"
