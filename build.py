@@ -220,9 +220,10 @@ def build_seminars(talks):
 
   <div class="about-section">
     <p>The <strong>American Statistical Association (ASA) Marketing Section</strong> is excited to present an online research seminar series. This series aims to foster research, discussions, and engagement at the intersection of marketing and statistics, driven by the rapid advancements in both fields. Seminars this semester are on Tuesdays from 3:00–4:00 PM Eastern Time, featuring a 45-minute presentation followed by a 15-minute Q&amp;A.</p>
+    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeeI5x0f639ayjoUG4oWIQrgTYL9bSc5pFtyqCPehwz9UPuSQ/viewform" target="_blank" rel="noopener"><strong>Join our mailing list</strong></a> to receive updates.</p>
     <p>Follow us on <a href="https://www.linkedin.com/groups/14601729/" target="_blank" rel="noopener">LinkedIn</a> to stay up to date.</p>
     <p><strong>Current Organizers:</strong> Sam Levy (UVA Darden), Keyan Li (Notre Dame Mendoza), Max Matthe (IU Kelley), Dinesh Puranam (USF Muma), Yingkang Xie (WashU Olin), and Gourab Mukherjee (USC Marshall)</p>
-    <p>For any questions, please feel free to reach out to us at <a href="mailto:mpmatthe@iu.edu">mpmatthe [at] iu [dot] edu</a>.</p>
+    <p><strong>Contact: <a href="mailto:asa.marketing.sec@gmail.com">asa.marketing.sec@gmail.com</a></strong></p>
   </div>
 
 {sections_html}"""
@@ -239,6 +240,7 @@ def build_homepage():
 
   <div class="about-section">
     <p>The <strong>Marketing Section</strong> of the American Statistical Association promotes the development and application of statistical methods in marketing research and practice. We bring together academics and practitioners at the intersection of marketing and statistics.</p>
+    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeeI5x0f639ayjoUG4oWIQrgTYL9bSc5pFtyqCPehwz9UPuSQ/viewform" target="_blank" rel="noopener"><strong>Join our mailing list</strong></a> to receive updates.</p>
     <p>Follow us on <a href="https://www.linkedin.com/groups/14601729/" target="_blank" rel="noopener">LinkedIn</a> to stay up to date with section news and events.</p>
   </div>
 

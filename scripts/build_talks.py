@@ -49,10 +49,11 @@ SEMINARS_HEADER = """\
 
   <div class="about-section">
     <p>The <strong>American Statistical Association (ASA) Marketing Section</strong> is excited to present an online research seminar series. This series aims to foster research, discussions, and engagement at the intersection of marketing and statistics, driven by the rapid advancements in both fields. Seminars this semester are held from 12:00\u20131:00 PM Eastern Time, featuring a 45-minute presentation followed by a 15-minute Q&amp;A.</p>
+    <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeeI5x0f639ayjoUG4oWIQrgTYL9bSc5pFtyqCPehwz9UPuSQ/viewform" target="_blank" rel="noopener"><strong>Join our mailing list</strong></a> to receive updates.</p>
     <p>Follow us on <a href="https://www.linkedin.com/groups/14601729/" target="_blank" rel="noopener">LinkedIn</a> to stay up to date.</p>
     <p><strong>Subscribe to our calendar:</strong> <a href="https://calendar.google.com/calendar/u/0?cid=Y18yMTliNmE3NzBmY2E0ZTM4N2Q0MDU4MjgyOGE5MTE0ZGUwNjE3ZTcxNjkyZGM2ZDE1ZjViZTcxODE2ZjcyYWYxQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20" target="_blank" rel="noopener">Google Calendar</a></p>
     <p><strong>Current Organizers:</strong> Sam Levy (UVA Darden), Keyan Li (Notre Dame Mendoza), Max Matthe (IU Kelley), Dinesh Puranam (USF Muma), Yingkang Xie (WashU Olin), and Gourab Mukherjee (USC Marshall)</p>
-    <p>For any questions, please feel free to reach out to us at <a href="mailto:mpmatthe@iu.edu">mpmatthe [at] iu [dot] edu</a>.</p>
+    <p><strong>Contact: <a href="mailto:asa.marketing.sec@gmail.com">asa.marketing.sec@gmail.com</a></strong></p>
   </div>
 """
 
